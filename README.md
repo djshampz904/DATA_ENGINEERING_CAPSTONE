@@ -34,6 +34,11 @@ data.
 - Data will be loaded via phpmyadmin
 - Image: [import_report](module_1/imgs/importdata.jpg)
 #### Create index
-
+- Index will be created on the timestamp column
+- Image: [list_indexes](module_1/imgs/listindexes.jpg)
+#### Export Data
+- Data will be exported to sql file
+- usage: `mysqldump -u <username> -p <database> > <filename>.sql`
+- File: [datadump.sh](module_1/datadump.sh)
   
 
