@@ -31,6 +31,9 @@ data.
 - usage: `mysql -u <username> -p < sales_data.sql`
 #### Load Data
 - Data Source: [oltpdata.csv](module_1/oltpdata.csv)
-- 
+- Data will be loaded via phpmyadmin
+- Image: [import_report](module_1/imgs/importdata.jpg)
+#### Create index
+
   
 
