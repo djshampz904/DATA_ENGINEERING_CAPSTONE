@@ -17,5 +17,17 @@ data.
 - design the schema for OLTP database.
 - load data into OLTP database.
 - automate admin tasks.
-- file: [sales_data.sql](module_1/sales_data.sql)
-- screenshot: [sales_data.png](module_1/sales_data.png)
+
+#### Schema Design
+- Image: [sales_data](module_1/sales_data.png)
+- columns in the sales table
+    - product_id
+    - customer_id
+    - price
+    - quantity
+    - timestamp
+#### Sql script
+- [sales_data.sql](module_1/sales_data.sql)
+- usage: `mysql -u root -p < sales_data.sql`
+  
+
