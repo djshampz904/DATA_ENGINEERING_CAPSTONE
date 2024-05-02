@@ -28,7 +28,7 @@ data.
     - timestamp
 #### Sql script
 - [sales_data.sql](module_1/sales_data.sql)
-- usage: `mysql -u root -p < sales_data.sql`
+- usage: `mysql -u <username> -p < sales_data.sql`
 #### Load Data
 - Data Source: [oltpdata.csv](module_1/oltpdata.csv)
 - 
