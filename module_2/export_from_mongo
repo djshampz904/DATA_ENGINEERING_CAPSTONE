@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+mongoexport --db=$1 --collection=$2 --type=csv --fields=_id,type,model --out=$3

@@ -40,5 +40,21 @@ data.
 - Data will be exported to sql file
 - usage: `mysqldump -u <username> -p <database> > <filename>.sql`
 - File: [datadump.sh](module_1/datadump.sh)
-  
+
+
+## Module 2
+### NOSQL DATABASE WITH MONGODB
+In this second part of the project we will create a NOSQL database using MongoDB.
+The database will be used to store the data.
+#### Import json file to MongoDB
+- Data Source: [catalog.json](module_2/catalog.json)
+- usage: `mongoimport --db <database> --collection <collection> --file <filename>.json`
+- Script: [importdata.sh](module_2/import_to_mongo)
+#### Query MongoDB
+- Query laptops
+- image: [query](module_2/imgs/mongo-query-laptops.jpg)
+- Query phones
+- image: [query](module_2/imgs/mongo-query-mobiles1.jpg)
+#### Export _id, type, model
+- Export _id, type, model to csv file
 
