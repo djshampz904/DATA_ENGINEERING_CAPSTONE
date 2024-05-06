@@ -57,4 +57,15 @@ The database will be used to store the data.
 - image: [query](module_2/imgs/mongo-query-mobiles1.jpg)
 #### Export _id, type, model
 - Export _id, type, model to csv file
+- script: [exportdata.sh](module_2/export_from_mongo)
+- Usage: `mongoexport --db <database> --collection <collection> --fields <fields> --csv --out <filename>.csv`
+
+
+## Module 3
+### PRODUCTION DATA WAREHOUSE WITH DB2 ON CLOUD and POSTGRES
+In this third part of the project we will create a production data warehouse using DB2 on Cloud and a staging 
+data warehouse using PostgreSQL.
+#### Databse design
+- Creating star schema for the data warehouse
+  - Image: [star_schema](module_3/imgs/star_schema.png)
 
